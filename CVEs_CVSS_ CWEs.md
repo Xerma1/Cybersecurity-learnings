@@ -12,7 +12,9 @@ But just knowing that the vulnerability exists is not enough. We want to know it
 # What is CVSS
 Stands for the Common Vulnerability Scoring System. Gives a score between 0-10 for each vulnerability. Higher numbers mean higher severity.<br>
 
-Help organisations prioritise which vulnerabilities to fix.
+Help organisations prioritise which vulnerabilities to fix.<br>
+
+The scoring takes into consideration how the vulnerability affects the CIA triad.
 
 # What is CWE
 Stands for Common Weakness Enumeration. While CVE describes a specific vulnerability, CWE describes a general type of weakness that caused it. 
