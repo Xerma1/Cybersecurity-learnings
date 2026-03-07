@@ -14,7 +14,7 @@ Stands for the Common Vulnerability Scoring System. Gives a score between 0-10 f
 
 Help organisations prioritise which vulnerabilities to fix.<br>
 
-The scoring takes into consideration how the vulnerability affects the CIA triad.
+Take a look at the CVSS Version 4.0 (latest version as of this writing) [calculator](https://nvd.nist.gov/vuln-metrics/cvss/v4-calculator) to see the metrics used to calculate the final score.
 
 # What is CWE
 Stands for Common Weakness Enumeration. While CVE describes a specific vulnerability, CWE describes a general type of weakness that caused it. 
