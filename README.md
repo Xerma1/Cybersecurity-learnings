@@ -1,2 +1,2 @@
 # Cybersecurity-learnings
-Documentation about my cybersecurity learnings
+Learning documentation about foundation cybersecurity terms and concepts.
