@@ -25,6 +25,7 @@ Stands for Common Weakness Enumeration. While CVE describes a specific vulnerabi
 Classifies vulnerabilities under similar categories, helping developers understand not just what is vulnerable, but WHY they are vulnerable. <br>
 
 <img width="856" height="526" alt="image" src="https://github.com/user-attachments/assets/5f975aa5-a93e-4bb8-b3c3-08d84058533a" />
+2025 CWE Top 10 Known Exploited Vulnerabilities (KEV) weaknesses
 
 
 Together, they provide a system that allows the cybersecurity world to organise, prioritise and fix vulnerabilities quickly.
