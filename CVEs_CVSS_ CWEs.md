@@ -16,5 +16,8 @@ Stands for the Common Vulnerability Scoring System. Gives a score between 0-10 f
 Stands for Common Weakness Enumeration. While CVE describes a specific vulnerability, CWE describes a general type of weakness that caused it. 
 * Buffer overflow
 * Cross-Site Scripting (XSS)
-* SQL Injections
-Helps classify vulnerabilities under similar categories. Helps developers understand not just what is vulnerable, but WHY they are vulnerable.
+* SQL Injections <br>
+
+Classifies vulnerabilities under similar categories, helping developers understand not just what is vulnerable, but WHY they are vulnerable. <br>
+
+Together, they give the cybersecurity world a way to organize, prioritize and fix vulnerabilities.
