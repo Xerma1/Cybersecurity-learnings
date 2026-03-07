@@ -1,2 +1,2 @@
 # Cybersecurity-learnings
-Learning documentation about foundation cybersecurity terms and concepts.
+Learning documentation about foundational cybersecurity terms and concepts.
