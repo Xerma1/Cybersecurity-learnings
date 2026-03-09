@@ -77,12 +77,28 @@ In this HTTP header, we can see that the webserver is `nginx.1.18.0` and runs `P
 You can get this header via `curl [URL] -v`
 
 # OSINT
-* [Google Hacking/Dorking](#google-hacking/dorking)
-* Wappalyzer
-* Wayback Machine
-* GitHub
-* S3 Buckets
+* [Google Hacking/Dorking](#google-hacking-dorking)
+* [Wappalyzer](#wappalyzer)
+* [Wayback Machine](#wayback-machine)
+* [GitHub](#github)
+* [S3 Buckets](#s3-buckets)
 
+<a name="google-hacking-dorking"></a>
 ## Google Hacking/Dorking
+A hacker technique that performs a normal Google Search but with filter words to locate specific websites or information that are evidence of vulnerabilities, like specific versions of vulnerable Web applications.
 
+<img width="969" height="576" alt="image" src="https://github.com/user-attachments/assets/7af9d9df-8388-4d9d-945e-2505f4eeb513" />
+
+
+<a name="wappalyzer"></a>
+## Wappalyzer
+
+<a name="wayback-machine"></a>
+## Wayback Machine
+
+<a name="github"></a>
+## Github
+
+<a name="s3-buckets"></a>
+## S3 Buckets
 # Automated Discovery
