@@ -7,13 +7,13 @@ Things like pages or portals that are intended only for the staff or administrat
 ## 3 ways of content discovery: *Manually*, *Automated*, *OSINT*
 
 # MANUALLY
-* [Robots.txt](#robots-link)
+* [Robots.txt](#robotstxt)
 * [Sitemap.xml](#sitemapxml)
-* Favicon
-* Framework stack
-* HTTP Headers
+* [Favicon](#favicon)
+* [Framework stack](#framework-stack)
+* [HTTP Headers](#http-headers)
 
-
+<a name="robotstxt"></a>
 ## Robots.txt
 Robots.txt is a document that clearly lists the pages that are allowed or not allowed to show by search engines, or even completely ban search engines from showing the website altogether.<br>
 These pages can be administration portals or files meant for website owners.<br>
@@ -22,6 +22,7 @@ This is a great piece of information, because it holds information about the loc
 
 To access this document, simply tag the end of the url with the file `/robots.txt`.
 
+<a name="sitemapxml"></a>
 ## Sitemap.xml
 Similar to `robots.txt`, but the `sitemap.xml` gives a list of EVERY file the website owner wishes to be listed on a search engine.<br>
 
@@ -29,7 +30,7 @@ This allows us to discover old webpages or areas of the website that are a bit o
 
 You can access the file by tagging the url with the file `/sitemap.xml`.
 
-<a name="robots-link"></a>
+<a name="favicon"></a>
 ## Favicon
 Favicons are a small icon that is display in the browser's address tab to brand a website.
 
@@ -39,6 +40,7 @@ Sometimes when frameworks are used to build a website, the favicon that is part 
 
 With this information, pentesters can acquire the md5 hash value of the favicon icon and do a lookup on the https://wiki.owasp.org/index.php/OWASP_favicon_database. After knowing the exact framework that was used to build the website, pentesters can look to find any vulnerabilities within the framework that can be exploited.<br>
 
+<a name="framework-stack"></a>
 ## Framework Stack
 Upon establishing the framework of a stack, either via Favicon or via comments, copyright notices or credits in the page source, we can locate the framework's website.<br>
 
@@ -48,7 +50,7 @@ Learning about the software and other information could possibly reveal a vulner
 
 <img width="1232" height="561" alt="image" src="https://github.com/user-attachments/assets/eb3a1fc4-6873-466b-b880-79b3a77c1b9c" />
 
-
+<a name="http-headers"></a>
 ## HTTP Headers
 When making requests to the web server, the server returns various HTTP headers. This headers can contain useful information such as the webserver software and the programming/scripting language in use.<br>
 ```
