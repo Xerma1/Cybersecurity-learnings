@@ -7,8 +7,8 @@ Things like pages or portals that are intended only for the staff or administrat
 ## 3 ways of content discovery: *Manually*, *Automated*, *OSINT*
 
 # MANUALLY
-* [Robots.txt](#robots.txt)
-* [Sitemap.xml](#sitemap.xml)
+* [Robots.txt](robotstxt)
+* [Sitemap.xml](sitemapxml)
 * Favicon
 * Framework stack
 * HTTP Headers
