@@ -7,11 +7,12 @@ Things like pages or portals that are intended only for the staff or administrat
 ## 3 ways of content discovery: *Manually*, *Automated*, *OSINT*
 
 # MANUALLY
-* [Robots.txt](robotstxt)
-* [Sitemap.xml](sitemapxml)
+* [Robots.txt](#robots-link)
+* [Sitemap.xml](#sitemapxml)
 * Favicon
 * Framework stack
 * HTTP Headers
+
 
 ## Robots.txt
 Robots.txt is a document that clearly lists the pages that are allowed or not allowed to show by search engines, or even completely ban search engines from showing the website altogether.<br>
@@ -28,6 +29,7 @@ This allows us to discover old webpages or areas of the website that are a bit o
 
 You can access the file by tagging the url with the file `/sitemap.xml`.
 
+<a name="robots-link"></a>
 ## Favicon
 Favicons are a small icon that is display in the browser's address tab to brand a website.
 
