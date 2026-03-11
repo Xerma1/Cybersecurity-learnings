@@ -92,13 +92,20 @@ A hacker technique that performs a normal Google Search but with filter words to
 
 <a name="wappalyzer"></a>
 ## Wappalyzer
+Wappalyzer (https://www.wappalyzer.com/) is an online tool and browser extension that helps identify what technologies a website uses, such as frameworks, Content Management Systems (CMS), payment processors and much more, and it can even find version numbers as well.
 
 <a name="wayback-machine"></a>
 ## Wayback Machine
+The Wayback Machine (https://archive.org/web/) is an archive storing the websites that date all the way back in the 90s. You can search a domain name, and it will show you all the times the service scraped the web page and saved the contents. This service can help uncover old pages that may still be active on the current website.
+
 
 <a name="github"></a>
 ## Github
+A hosted version of Git on the internet. It is a version control system, which allows team members to work on a project easier. Use GitHub to search for company names or website names and you may uncover the source code or some information that was not available before.
 
 <a name="s3-buckets"></a>
 ## S3 Buckets
+S3 Buckets is a storage service hosted by Amazon Web Services (AWS) that allows users to store files or static web content in the cloud, accessible over HTTP or HTTPS. Users can set it as private, public or even writable. The s3 bucket looks like this format ` http(s)://{name}.s3.amazonaws.com`. S3 buckets can be discovered in many ways, such as finding the URLs in the website's page source, GitHub repositories, or even automating the process. One common automation method is by using the company name followed by common terms such as {name}-assets, {name}-www, {name}-public, {name}-private, etc.
+
 # Automated Discovery
+Using automation tools like dirb and Gobuster to go through a wordlist containing a list of common names for files and directories to find hidden file and directories of a website. Basically bruteforcing. 
