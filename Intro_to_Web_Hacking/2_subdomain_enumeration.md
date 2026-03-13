@@ -24,7 +24,7 @@ We can use Google dorking to filter for URLs that contain the domain name that w
 
 ## Virtual Host
 <a name="virtual-host"></a>
-Some subdomains are not accessible in a public DNS server, like development versions of a web or administration portals. Instead, the DNS records is stored in a private DNS server or recorded on the developer's machines in their /etc/hosts file (or c:\windows\system32\drivers\etc\hosts file for Windows users), which maps domain names to IP addresses. <br>
+Some subdomains are not accessible in a public DNS server, like development versions of a web or administration portals. Instead, the DNS records is stored in a private DNS server or recorded on the developer's machines in their `/etc/hosts` file (or `c:\windows\system32\drivers\etc\hosts` file for Windows users), which maps domain names to IP addresses. <br>
 
 Since these servers can host multiple websites, it determines what website the client wants to access through the host header. We can make changes to the host header and monitor the response to see if we get a hit. So we can use DNS brute forcing method by changing the headers repeatedly. <br>
 
