@@ -104,4 +104,10 @@ the php code uses the 3 equal signs, meaning that it must be an exact match in o
 
 ## Cookie tampering
 
+Cookies maintain session state so that users do not have to re-authenticate every time. <br>
+When users first log in:
+- The server creates a session
+- A cookie (usually the session-ID) is sent to your browser
+- Afterwards, every request sent to the server will be tagged with the cookie header, so that the server recognizes you from the session ID<br>
 
+The cookie can be stored as plain text, hashed, or encoded format. Tampering with the cookie can give us access privileges.
